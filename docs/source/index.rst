@@ -1,10 +1,10 @@
 ######################################################
-FNK00xx
+Freenove Ultimate Starter Kit for ESP8266
 ######################################################
 
 .. toctree::
    :maxdepth: 1
-   :caption: FNK00xx
+   :caption: FNK0073
    :glob:
 
-   fnk00xx/fnk00xx.rst
+   fnk0073/codes/C.rst
