@@ -37,7 +37,7 @@ Circuit
 We will solder the following circuit on the main board.
 
 .. list-table:: 
-   :width: 100%
+   :width: 70%
    :align: center
 
    * -  Schematic diagram
@@ -116,7 +116,7 @@ Circuit
 Solder the following circuit on the main board.
 
 .. list-table:: 
-   :width: 100%
+   :width: 70%
    :align: center
 
    * -  Schematic diagram

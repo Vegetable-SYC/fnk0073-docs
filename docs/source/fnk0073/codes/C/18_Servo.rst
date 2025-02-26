@@ -1,5 +1,5 @@
 ##############################################################################
-Chapter
+Chapter Servo
 ##############################################################################
 
 Previously, we learned how to control the speed and rotational direction of a motor. In this chapter, we will learn about servos which are a rotary actuator type motor that can be controlled to rotate to specific angles.

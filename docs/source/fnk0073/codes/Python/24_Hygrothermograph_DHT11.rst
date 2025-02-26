@@ -62,10 +62,10 @@ Circuit
     
         If you need any support, please feel free to contact us via: support@freenove.com
    
-   * -  |Chapter24_05|
+   * -  |Chapter24_21|
 
 .. |Chapter24_04| image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_04.png
-.. |Chapter24_05| image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_05.png
+.. |Chapter24_21| image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_21.png
 
 Code
 ===============================
