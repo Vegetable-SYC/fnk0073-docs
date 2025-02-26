@@ -2,7 +2,7 @@
 0. Chapter LED
 ##############################################################################
 
-This chapter is the Start Point in the journey to build and explore ESP8266 electronic projects. We will start with simple “Blink” project.
+This chapter is the Start Point in the journey to build and explore ESP8266 electronic projects. We will start with simple "Blink" project.
 
 Project Blink
 **********************************
@@ -56,7 +56,7 @@ Select the serial port.
 
 .. note::
     
-    For macOS users, if the uploading fails, please set the baud rate to 115200 before clicking “Upload Using Programmer”.
+    For macOS users, if the uploading fails, please set the baud rate to 115200 before clicking "Upload Using Programmer".
 
 .. image:: ../_static/imgs/0_LED/Chapter00_05.png
     :align: center
@@ -67,7 +67,7 @@ Sketch_Blink
 .. image:: ../_static/imgs/0_LED/Chapter00_06.png
     :align: center
 
-Click “Upload”, Download the code to ESP8266 and your LED in the circuit starts Blink.
+Click "Upload", Download the code to ESP8266 and your LED in the circuit starts Blink.
 
 .. image:: ../_static/imgs/0_LED/Chapter00_07.png
     :align: center

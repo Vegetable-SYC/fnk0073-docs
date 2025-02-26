@@ -130,12 +130,12 @@ Check whether CH340 has been installed
 .. image:: ../_static/imgs/Preface/Preface07.png
     :align: center
 
-2.	Turn to the main interface of your computer, select “This PC” and right-click to select “Manage”.
+2.	Turn to the main interface of your computer, select "This PC" and right-click to select "Manage".
 
 .. image:: ../_static/imgs/Preface/Preface08.png
     :align: center
 
-3.	Click “Device Manager”. If your computer has installed CH340, you can see“USB-SERIAL CH340 (COMx)”. And you can click :ref:`here <programming>` to move to the next step.
+3.	Click "Device Manager". If your computer has installed CH340, you can see"USB-SERIAL CH340 (COMx)". And you can click :ref:`here <programming>` to move to the next step.
 
 .. image:: ../_static/imgs/Preface/Preface09.png
     :align: center
@@ -152,22 +152,22 @@ your operating system.
 
 If you would not like to download the installation package, you can open 
 
-“ **Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340** ”, we have prepared the installation package.
+" **Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340** ", we have prepared the installation package.
  
 .. image:: ../_static/imgs/Preface/Preface11.png
     :align: center
 
-2.	Open the folder “Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340/Windows/”
+2.	Open the folder "Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340/Windows/"
 
 .. image:: ../_static/imgs/Preface/Preface12.png
     :align: center
 
-3.	Double click “ **CH341SER.EXE** ”.
+3.	Double click " **CH341SER.EXE** ".
 
 .. image:: ../_static/imgs/Preface/Preface13.png
     :align: center
   
-4.	Click “INSTALL” and wait for the installation to complete.
+4.	Click "INSTALL" and wait for the installation to complete.
 
 .. image:: ../_static/imgs/Preface/Preface14.png
     :align: center
@@ -177,7 +177,7 @@ If you would not like to download the installation package, you can open
 .. image:: ../_static/imgs/Preface/Preface15.png
     :align: center
   
-6.	When ESP8266 is connected to computer, select “This PC”, right-click to select “Manage” and click “Device Manager” in the newly pop-up dialog box, and you can see the following interface.
+6.	When ESP8266 is connected to computer, select "This PC", right-click to select "Manage" and click "Device Manager" in the newly pop-up dialog box, and you can see the following interface.
 
 .. image:: ../_static/imgs/Preface/Preface16.png
     :align: center
@@ -194,9 +194,9 @@ First, download CH340 driver, click http://www.wch-ic.com/search?q=CH340&t=downl
 
 If you would not like to download the installation package, you can open 
 
-“ **Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340** ”, we have prepared the installation package.
+" **Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340** ", we have prepared the installation package.
 
-Second, open the folder “ **Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340/MAC/** ”
+Second, open the folder " **Freenove_Ultimate_Starter_Kit_for_ESP8266/CH340/MAC/** "
 
 .. image:: ../_static/imgs/Preface/Preface18.png
     :align: center

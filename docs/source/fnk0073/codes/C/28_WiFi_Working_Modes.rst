@@ -60,7 +60,7 @@ After making sure the router name and password are entered correctly, compile an
 .. image:: ../_static/imgs/28_WiFi_Working_Modes/Chapter28_03.png
     :align: center
 
-When ESP8266 successfully connects to “ssid_Router”, serial monitor will print out the IP address assigned to ESP8266 by the router.
+When ESP8266 successfully connects to "ssid_Router", serial monitor will print out the IP address assigned to ESP8266 by the router.
 
 The following is the program code:
 

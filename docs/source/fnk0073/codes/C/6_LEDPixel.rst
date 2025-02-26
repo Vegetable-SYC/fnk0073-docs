@@ -103,12 +103,12 @@ The first way, open the Arduino IDE, click Tools -> Manager Libraries.
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_06.png
     :align: center
 
-In the pop-up window, Library Manager, search for the name of the Library, “Adafruit_NeoPixel”. Then click Install.
+In the pop-up window, Library Manager, search for the name of the Library, "Adafruit_NeoPixel". Then click Install.
 
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_07.png
     :align: center
 
-The second way, open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named “./Libraries/Adafruit_NeoPixel.Zip” which locates in this directory, and click OPEN.
+The second way, open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named "./Libraries/Adafruit_NeoPixel.Zip" which locates in this directory, and click OPEN.
 
 .. image:: ../_static/imgs/6_LEDPixel/Chapter06_08.png
     :align: center
@@ -184,7 +184,7 @@ Initialize strip() in setup() and set the brightness.
     :lines: 21-22
     :dedent:
 
-In the loop(), there are two “for” loops, the internal for loop to light the LED one by one, and the external for loop to switch colors. pixels.setPixelColor() is used to set the color, but it does not change immediately. Only when pixels.show() is called will the color data be sent to the LED to change the color.
+In the loop(), there are two "for" loops, the internal for loop to light the LED one by one, and the external for loop to switch colors. pixels.setPixelColor() is used to set the color, but it does not change immediately. Only when pixels.show() is called will the color data be sent to the LED to change the color.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.1_LEDPixel/Sketch_06.1_LEDPixel.ino
     :linenos: 
@@ -199,7 +199,7 @@ Reference
     
     Constructor to create a LEDPixel object.
     
-    Before each use of the constructor, please add “#include <Adafruit_NeoPixel.h>”
+    Before each use of the constructor, please add "#include <Adafruit_NeoPixel.h>"
     
     Parameters
     
@@ -263,7 +263,7 @@ The following is the program code:
     :lines: 1-35
     :dedent:
 
-In the loop(), two “for” loops are used, the internal “for” loop(for-j) is used to set the color of each LED, and the external “for” loop(for-i) is used to change the color, in which the self-increment value in i+=1 can be changed to change the color step distance. Changing the delay parameter changes the speed of the color change. Wheel(i * 256 / LEDS_COUNT + j) & 255) will take color from the color model at equal intervals starting from i.
+In the loop(), two "for" loops are used, the internal "for" loop(for-j) is used to set the color of each LED, and the external "for" loop(for-i) is used to change the color, in which the self-increment value in i+=1 can be changed to change the color step distance. Changing the delay parameter changes the speed of the color change. Wheel(i * 256 / LEDS_COUNT + j) & 255) will take color from the color model at equal intervals starting from i.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.2_RainbowLight/Sketch_06.2_RainbowLight.ino
     :linenos: 

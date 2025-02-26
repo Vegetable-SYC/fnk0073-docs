@@ -2,7 +2,7 @@
 Chapter LED
 ##############################################################################
 
-This chapter is the Start Point in the journey to build and explore ESP8266 electronic projects. We will start with simple “Blink” project.
+This chapter is the Start Point in the journey to build and explore ESP8266 electronic projects. We will start with simple "Blink" project.
 
 Project Blink
 *******************************
@@ -39,7 +39,7 @@ Component knowledge
 LED
 ------------------------
 
-A LED is a type of diode. All diodes only work if current is flowing in the correct direction and have two poles. A LED will only work (light up) if the longer pin (+) of LED is connected to the positive output from a power source and the shorter pin is connected to the negative (-).  Negative output is also referred to as Ground (GND). This type of component is known as “diodes” (think One-Way Street).
+A LED is a type of diode. All diodes only work if current is flowing in the correct direction and have two poles. A LED will only work (light up) if the longer pin (+) of LED is connected to the positive output from a power source and the shorter pin is connected to the negative (-).  Negative output is also referred to as Ground (GND). This type of component is known as "diodes" (think One-Way Street).
 
 All common 2 lead diodes are the same in this respect. Diodes work only if the voltage of its positive electrode is higher than its negative electrode and there is a narrow range of operating voltage for most all common diodes of 1.9 and 3.4V. If you use much more than 3.3V the LED will be damaged and burn out.
 
@@ -138,7 +138,7 @@ Select the serial port.
 
 .. note:: 
     
-    For macOS users, if the uploading fails, please set the baud rate to 115200 before clicking “Upload Using Programmer”.
+    For macOS users, if the uploading fails, please set the baud rate to 115200 before clicking "Upload Using Programmer".
 
 .. image:: ../_static/imgs/1_LED/Chapter01_15.png
     :align: center
@@ -149,7 +149,7 @@ Sketch_Blink2
 .. image:: ../_static/imgs/1_LED/Chapter01_16.png
     :align: center
 
-Click “Upload”, Download the code to ESP8266 and your LED in the circuit starts Blink.
+Click "Upload", Download the code to ESP8266 and your LED in the circuit starts Blink.
 
 .. image:: ../_static/imgs/1_LED/Chapter01_17.png
     :align: center

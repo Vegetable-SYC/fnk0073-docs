@@ -56,7 +56,7 @@ Soldering the Circuit
 
 Insert the components on the main board and solder the circuit on its back.
 
-.. image:: ../_static/imgs/32_Play_music_with_audio_decoder/Chapter33_08.png
+.. image:: ../_static/imgs/33_Soldering_Circuit_Board/Chapter33_08.png
     :align: center
 
 rendering after soldering:
@@ -78,7 +78,7 @@ Testing circuit
 
 Connect the circuit board to power supply (3~5V). You can use ESP8266 board or battery box as the power supply.
 
-.. image:: ../_static/imgs/32_Play_music_with_audio_decoder/Chapter33_11.png
+.. image:: ../_static/imgs/33_Soldering_Circuit_Board/Chapter33_11.png
     :align: center
 
 Press the push button after connecting the power, and then the buzzer will make a sound.
@@ -135,7 +135,7 @@ Soldering the Circuit
 
 Insert the components on the main board and solder the circuit on its back.
 
-.. image:: ../_static/imgs/32_Play_music_with_audio_decoder/Chapter33_18.png
+.. image:: ../_static/imgs/33_Soldering_Circuit_Board/Chapter33_18.png
     :align: center
 
 Rendering after soldering:
@@ -157,7 +157,7 @@ Connecting the Circuit
 
 Connect the board to ESP8266 with Jumper wire in the following way.
 
-.. image:: ../_static/imgs/32_Play_music_with_audio_decoder/Chapter33_21.png
+.. image:: ../_static/imgs/33_Soldering_Circuit_Board/Chapter33_21.png
     :align: center
 
 Sketch

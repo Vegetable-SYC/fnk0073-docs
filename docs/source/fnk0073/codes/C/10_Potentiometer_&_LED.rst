@@ -129,6 +129,9 @@ Circuit
 .. |Chapter10_03| image:: ../_static/imgs/10_Potentiometer_&_LED/Chapter10_03.png
 .. |Chapter10_04| image:: ../_static/imgs/10_Potentiometer_&_LED/Chapter10_04.png
 
+Sketch
+============================
+
 Download the code to ESP8266, rotate the potentiometers, then the color of RGB LED will change. 
 
 :red:`If you have any concerns, please contact us via:` support@freenove.com

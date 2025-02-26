@@ -111,7 +111,7 @@ In the circuit connection, LED and button are connected with GPIO4 and GPIO5 res
     :lines: 7-8
     :dedent:
 
-In the while cycle of main function, use digitalRead(PIN_BUTTON) to determine the state of button. When the button is pressed, the function returns low level, the result of “if” is true, and then turn on LED. Otherwise, turn off LED.
+In the while cycle of main function, use digitalRead(PIN_BUTTON) to determine the state of button. When the button is pressed, the function returns low level, the result of "if" is true, and then turn on LED. Otherwise, turn off LED.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_02.1_ButtonAndLed/Sketch_02.1_ButtonAndLed.ino
     :linenos: 
@@ -124,7 +124,7 @@ Reference
 
 .. py:function:: int digitalRead (int pin);	
 
-    This function returns the value read at the given pin. It will be “HIGH” or “LOW”(1 or 0) depending on the logic level at the pin.
+    This function returns the value read at the given pin. It will be "HIGH" or "LOW"(1 or 0) depending on the logic level at the pin.
 
 Project MINI table lamp
 **************************************
@@ -136,7 +136,7 @@ First, let us learn something about the push button switch.
 Debounce for Push Button 
 ===================================
 
-The moment when a push button switch is pressed, it will not change from one state to another state immediately. Due to tiny mechanical vibrations, there will be a short period of continuous buffeting before it completely reaches another state too fast for humans to detect but not for computer microcontrollers. The same is true when the push button switch is released. This unwanted phenomenon is known as “bounce”.
+The moment when a push button switch is pressed, it will not change from one state to another state immediately. Due to tiny mechanical vibrations, there will be a short period of continuous buffeting before it completely reaches another state too fast for humans to detect but not for computer microcontrollers. The same is true when the push button switch is released. This unwanted phenomenon is known as "bounce".
 
 .. image:: ../_static/imgs/2_Button_&_LED/Chapter02_08.png
     :align: center

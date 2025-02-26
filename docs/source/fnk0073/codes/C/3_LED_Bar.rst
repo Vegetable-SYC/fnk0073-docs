@@ -69,7 +69,7 @@ Circuit
 Sketch
 =========================
 
-This project is designed to make a flowing water lamp. Which are these actions: First turn LED #1 ON, then turn it OFF. Then turn LED #2 ON, and then turn it OFF... and repeat the same to all 10 LEDs until the last LED is turns OFF. This process is repeated to achieve the “movements” of flowing water.
+This project is designed to make a flowing water lamp. Which are these actions: First turn LED #1 ON, then turn it OFF. Then turn LED #2 ON, and then turn it OFF... and repeat the same to all 10 LEDs until the last LED is turns OFF. This process is repeated to achieve the "movements" of flowing water.
 
 Upload following sketch:
 
@@ -110,7 +110,7 @@ In setup(), use sizeof() to get the number of array, which is the number of LEDs
     :lines: 11-14
     :dedent:
 
-Then, in loop(), use two “for” loop to realize flowing water light from left to right and from right to left.
+Then, in loop(), use two "for" loop to realize flowing water light from left to right and from right to left.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_03.1_FlowingLight/Sketch_03.1_FlowingLight.ino
     :linenos: 

@@ -132,7 +132,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/32_Play_music_with_audio_decoder/Chapter32_07.png
     :align: center
 
-The second way, open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named “./Libraries/ESP8266Audio.Zip” which locates in this directory, and click OPEN.
+The second way, open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named "./Libraries/ESP8266Audio.Zip" which locates in this directory, and click OPEN.
 
 Install the Arduino IDE plug-in Arduino-ESP8266Fs-Plugin
 
@@ -150,7 +150,7 @@ Find the Arduino IDE environment directory location.
 .. image:: ../_static/imgs/32_Play_music_with_audio_decoder/Chapter32_09.png
     :align: center
 
-Copy “tools” folder to this directory. 
+Copy "tools" folder to this directory. 
 
 .. image:: ../_static/imgs/32_Play_music_with_audio_decoder/Chapter32_10.png
     :align: center
@@ -189,7 +189,9 @@ After uploading, upload the code to the ESP8266 development.
 
 Upload following sketch:
 
-**Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketch_32.1_Play_music_with_audio_decoder\\PlayMP3FromSPIFFS-IIS**
+**Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketch_32.1_Play_music_with_audio_decoder**
+
+**\\PlayMP3FromSPIFFS-IIS**
 
 Sketch_Play_music_with_audio_decoder
 ----------------------------------------------

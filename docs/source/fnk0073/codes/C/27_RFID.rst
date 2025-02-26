@@ -190,7 +190,7 @@ Sketch_RFID_Read_UID
 
 Before writing code, we need to import the library needed.
 
-Click “Add .ZIP Library...” and then find RFID.zip in libraries folder (this folder is in the folder unzipped form
+Click "Add .ZIP Library..." and then find RFID.zip in libraries folder (this folder is in the folder unzipped form
 the ZIP file we provided). This library make it easy to operate RFID module.
 
 This sketch will read the unique ID number (UID) of the card, recognize the type of the card and display the

@@ -212,7 +212,7 @@ Sketch_Temperature_and_Humidity_Sensor
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_14.png
     :align: center
 
-Download the code to ESP8266. The first line of LCD1602 shows the temperature value, and the second line shows the humidity value. Try to “pinch” the thermistor (without touching the leads) with your index finger and thumb for a brief time to observe the change in the LCD display value.
+Download the code to ESP8266. The first line of LCD1602 shows the temperature value, and the second line shows the humidity value. Try to "pinch" the thermistor (without touching the leads) with your index finger and thumb for a brief time to observe the change in the LCD display value.
 
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_15.png
     :align: center

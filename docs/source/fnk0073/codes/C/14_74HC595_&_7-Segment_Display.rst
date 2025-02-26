@@ -49,12 +49,12 @@ A 7-segment display is a digital electronic display device. There is a figure "8
 .. image:: ../_static/imgs/14_74HC595_&_7-Segment_Display/Chapter14_01.png
     :align: center
 
-As we can see in the above circuit diagram, we can control the state of each LED separately. Also, by combining LEDs with different states of ON and OFF, we can display different characters (Numbers and Letters). For example, to display a “0”: we need to turn ON LED segments A, B, C, D, E and F, and turn OFF LED segments G and DP.
+As we can see in the above circuit diagram, we can control the state of each LED separately. Also, by combining LEDs with different states of ON and OFF, we can display different characters (Numbers and Letters). For example, to display a "0": we need to turn ON LED segments A, B, C, D, E and F, and turn OFF LED segments G and DP.
 
 .. image:: ../_static/imgs/14_74HC595_&_7-Segment_Display/Chapter14_02.png
     :align: center
 
-In this project, we will use a 7-Segment Display with a common anode. Therefore, when there is an input low level to a LED segment the LED will turn ON. Defining segment “A” as the lowest level and segment “DP” as the highest level, from high to low would look like this: “DP”, “G”, “F”, “E”, “D”, “C”, “B”, “A”. Character "0" corresponds to the code: 1100 0000b=0xc0.
+In this project, we will use a 7-Segment Display with a common anode. Therefore, when there is an input low level to a LED segment the LED will turn ON. Defining segment "A" as the lowest level and segment "DP" as the highest level, from high to low would look like this: "DP", "G", "F", "E", "D", "C", "B", "A". Character "0" corresponds to the code: 1100 0000b=0xc0.
 
 For detailed code values, please refer to the following table (common anode). 
 
@@ -136,7 +136,7 @@ The following is the program code:
     :lines: 1-39
     :dedent:
 
-First, put encoding of “0”- “F” into the array.
+First, put encoding of "0"- "F" into the array.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_14.1_1_Digit_7-Segment_Display/Sketch_14.1_1_Digit_7-Segment_Display.ino
     :linenos: 
@@ -144,7 +144,7 @@ First, put encoding of “0”- “F” into the array.
     :lines: 10-14
     :dedent:
 
-Then, in the loop, we transfer the member of the “num” to 74HC595 by calling the writeData function, so that the digital tube displays what we want. After each display, “0xff” is used to eliminate the previous effect and prepare for the next display.
+Then, in the loop, we transfer the member of the "num" to 74HC595 by calling the writeData function, so that the digital tube displays what we want. After each display, "0xff" is used to eliminate the previous effect and prepare for the next display.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_14.1_1_Digit_7-Segment_Display/Sketch_14.1_1_Digit_7-Segment_Display.ino
     :linenos: 
@@ -290,7 +290,7 @@ The usage of the writeData function is the same as in the previous two sections,
     :lines: 47-54
     :dedent:
 
-In the loop function, because there are four digital tubes, a “for loop” is used to display the values of each one in turn. For example, when i =0, turn ON the first digital tube to display the first value, then turn ON the second digital tube to display the second value, until all four digital tubes display their own values. Because the displaying time from the first number to the fourth number is so short, it may display many times in one second, but our eyes can't keep up with the speed of the digital tube, so we look as if the digital tube is displaying different Numbers at the same time.
+In the loop function, because there are four digital tubes, a "for loop" is used to display the values of each one in turn. For example, when i =0, turn ON the first digital tube to display the first value, then turn ON the second digital tube to display the second value, until all four digital tubes display their own values. Because the displaying time from the first number to the fourth number is so short, it may display many times in one second, but our eyes can't keep up with the speed of the digital tube, so we look as if the digital tube is displaying different Numbers at the same time.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_14.2_4_Digit_7-Segment_Display/Sketch_14.2_4_Digit_7-Segment_Display.ino
     :linenos: 

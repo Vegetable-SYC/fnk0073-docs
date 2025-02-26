@@ -74,15 +74,15 @@ Circuit
    :align: center
 
    * -  Schematic diagram
-   * -  |Chapter23_07|
+   * -  |Chapter23_19|
    * -  Hardware connection. 
     
         If you need any support, please feel free to contact us via: support@freenove.com
    
-   * -  |Chapter23_08|
+   * -  |Chapter23_20|
 
-.. |Chapter23_07| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_07.png
-.. |Chapter23_08| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_08.png
+.. |Chapter23_19| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_19.png
+.. |Chapter23_20| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_20.png
 
 Sketch
 ===============================

@@ -67,7 +67,7 @@ Unzip the downloaded file to your computer. Click "processing.exe" as the figure
 Use Server mode for communication
 --------------------------------------
 
-Open the “Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketches\\Sketch_29.1_WiFiClient\\sketchWiFi\sketchWiFi.pde”, and click "Run".
+Open the "Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketches\\Sketch_29.1_WiFiClient\\sketchWiFi\sketchWiFi.pde", and click "Run".
 
 .. image:: ../_static/imgs/29_TCP_IP/Chapter29_04.png
     :align: center
@@ -115,7 +115,7 @@ Connect Freenove ESP8266 to the computer using USB cable.
 Sketch
 ===========================
 
-If you have not installed “ControlP5”, please follow the following steps to continue the installation, if you have installed, please skip this section.
+If you have not installed "ControlP5", please follow the following steps to continue the installation, if you have installed, please skip this section.
 
 Open Processing.
 
@@ -132,7 +132,7 @@ Select Libraries in the pop-up window.
 .. image:: ../_static/imgs/29_TCP_IP/Chapter29_09.png
     :align: center
 
-Input “ControlP5” in the searching box, and then select the option as below. Click “Install” and wait for the installation to finish.
+Input "ControlP5" in the searching box, and then select the option as below. Click "Install" and wait for the installation to finish.
 
 You can also click Add Library under 'Import Library' under 'Sketch'. 
 
@@ -145,7 +145,7 @@ You can also click Add Library under 'Import Library' under 'Sketch'.
 Sketch_As_Client
 ---------------------------
 
-Before running the Sketch, please open “sketchWiFi.pde.” first, and click “Run”. 
+Before running the Sketch, please open "sketchWiFi.pde." first, and click "Run". 
 
 .. image:: ../_static/imgs/29_TCP_IP/Chapter29_12.png
     :align: center
@@ -160,7 +160,7 @@ Next, open Sketch_WiFiClient.ino. Before running it, please change the following
 .. image:: ../_static/imgs/29_TCP_IP/Chapter29_14.png
     :align: center
 
-REMOTE_IP needs to be filled in according to the interface of sketchWiFi.pde. Taking this tutorial as an example, its REMOTE_IP is “192.168.1.133”. Generally, by default, the ports do not need to change its value.
+REMOTE_IP needs to be filled in according to the interface of sketchWiFi.pde. Taking this tutorial as an example, its REMOTE_IP is "192.168.1.133". Generally, by default, the ports do not need to change its value.
 
 Click LISTENING, turn on TCP SERVER's data listening function and wait for ESP8266 to connect.
 
@@ -319,7 +319,7 @@ Serial Monitor
 
 Processing:
 
-Open the “ **Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketches\\Sketch_29.2_WiFiServer\\sketchWiFi\sketchWiFi.pde** ”.
+Open the " **Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketches\\Sketch_29.2_WiFiServer\\sketchWiFi\sketchWiFi.pde** ".
 
 Based on the messages printed by the serial monitor, enter correct IP address and serial port in Processing to establish connection and make communication. 
 

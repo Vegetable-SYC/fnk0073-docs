@@ -88,7 +88,7 @@ Please make sure you have the following Keypad libraries installed, other Keypad
 .. image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_06.png
     :align: center
 
-In addition, you can import Keypad libraries in another way.Open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named “./Libraries/ Keypad.zip” which locates in this directory, and click OPEN.
+In addition, you can import Keypad libraries in another way.Open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named "./Libraries/ Keypad.zip" which locates in this directory, and click OPEN.
 
 .. image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_07.png
     :align: center

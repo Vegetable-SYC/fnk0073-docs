@@ -59,6 +59,7 @@ The conversion formula is as follows:
     :align: center
 
 ADC on ESP8266
+----------------------------
 
 ESP8266 has one digital analog converters with successive approximations of 10-bit accuracy, and a total of 1 pins can be used to measure analog signals. GPIO analog pin definition are shown in the following table. Note that the input voltage on the ADC pins of the ESP8266 module must be between 0V and 1.0V.For the ESP8266 ESP8266 development board designed by us, its input voltage range has been sampled by resistors.The ADC input voltage of the development board is 0V to 3.3V. 
 

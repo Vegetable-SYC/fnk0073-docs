@@ -80,7 +80,7 @@ Download the code to ESP8266, open the serial port monitor, set the baud rate to
 .. image:: ../_static/imgs/30_Smart_home/Chapter30_02.png
     :align: center
 
-When ESP8266 successfully connects to “ssid_Router”, serial monitor will print out the IP address assigned to ESP8266 by the router. Access http://192.168.1.49 in a computer browser on the LAN. As shown in the following figure:
+When ESP8266 successfully connects to "ssid_Router", serial monitor will print out the IP address assigned to ESP8266 by the router. Access http://192.168.1.49 in a computer browser on the LAN. As shown in the following figure:
 
 .. image:: ../_static/imgs/30_Smart_home/Chapter30_03.png
     :align: center

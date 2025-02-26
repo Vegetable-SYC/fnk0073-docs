@@ -76,7 +76,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/31_Play_music/Chapter31_10.png
     :align: center
 
-The second way, open Arduino IDE, click SketchInclude LibraryAdd .ZIP Library, In the pop-up window, find the file named “./Libraries/ESP8266Audio.Zip” which locates in this directory, and click OPEN.
+The second way, open Arduino IDE, click Sketch -> Include Library -> Add .ZIP Library, In the pop-up window, find the file named "./Libraries/ESP8266Audio.Zip" which locates in this directory, and click OPEN.
 
 Install the Arduino IDE plug-in Arduino-ESP8266Fs-Plugin
 ----------------------------------------------------------------
@@ -95,7 +95,7 @@ Find the Arduino IDE environment directory location.
 .. image:: ../_static/imgs/31_Play_music/Chapter31_12.png
     :align: center
 
-Copy “tools” folder to this directory. 
+Copy "tools" folder to this directory. 
 
 .. image:: ../_static/imgs/31_Play_music/Chapter31_13.png
     :align: center

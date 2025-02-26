@@ -53,8 +53,8 @@ The HC-SR04 ultrasonic ranging module integrates both an ultrasonic transmitter 
    * -  |Chapter21_03|
      -  |Chapter21_04|
 
-.. |Chapter21_03| image:: ../_static/imgs/20_LCD1602/Chapter21_03.png
-.. |Chapter21_04| image:: ../_static/imgs/20_LCD1602/Chapter21_04.png
+.. |Chapter21_03| image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_03.png
+.. |Chapter21_04| image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_04.png
 
 Pin description:
 
